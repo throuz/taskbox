@@ -25,7 +25,8 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "init-msw": "msw init public/"
+    "init-msw": "msw init public/",
+    "test-storybook": "test-storybook"
   },
   "devDependencies": {
     "@storybook/addon-a11y": "^7.0.18",
@@ -37,6 +38,7 @@
     "@storybook/jest": "^0.1.0",
     "@storybook/react": "^7.0.18",
     "@storybook/react-vite": "^7.0.18",
+    "@storybook/test-runner": "^0.10.0",
     "@storybook/testing-library": "^0.1.0",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
@@ -46,5 +48,8 @@
     "prop-types": "^15.8.1",
     "storybook": "^7.0.18",
     "vite": "^4.2.0"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }
